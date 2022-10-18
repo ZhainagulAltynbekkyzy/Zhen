@@ -1,0 +1,32 @@
+//Global styles
+
+//Fonts and colors
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Nunito:400,700');
+
+$spacegrey: #5f5f5f;
+$black: #000000;
+$lightgold: #f9e7d1;
+$gold: #f2d7b5;
+$darkgold: #bc9b73;
+$lightgrey: #c3c3c3e2;
+
+//Update Bulma's global variables
+$family-sans-serif: 'Nunito', sans-serif;
+$primary: $darkgold;
+
+$link: $lightgold;
+
+//Update some of Bulma's component variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+//Set custom global styles
+html {
+    background: linear-gradient(to right top, $lightgrey, $spacegrey);
+}
+
+html, body {
+    height: 100%;
+}
+
